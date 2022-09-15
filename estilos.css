@@ -1,0 +1,691 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 650px;
+    background: #2196f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f443368a, #2195f3a6), url(IoT\ 1.jpeg); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f443368a, #2195f3a6), url(IoT\ 1.jpeg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*  Primera sección About IoT */
+
+.about-iot{
+    font-family: 'arial';
+    width: 100%;
+    height: 750px;
+    position: relative; 
+    background: linear-gradient(to right,  #e07c09dc, #d1ce0cc0)
+}
+
+.wave-iot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor-about-iot{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: right;
+}
+
+.titulo-about-iot{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-about-iot h2{
+    font-size: 70px;
+    color: rgb(218, 15, 15);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.contenedor-textos-about-iot{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -70px;
+}
+.imagen-about-iot{
+    width: 50%;
+    height: 450px;
+    position: center;
+    flex-direction:column-reverse;
+}
+
+.contenedor-textos-about-iot h3 span{
+    background: #c51111;
+    color: white;
+    border-radius: 80%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    font-size: 25px;
+
+}
+
+.contenedor-textos-about-iot h3{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+
+}
+
+.contenedor-textos-about-iot p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+/*  Segunda sección About us */
+
+.about-us{
+    font-family: 'arial';
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: linear-gradient(to right, #037948, #30e939a1)
+}
+
+.wave-about-us{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor-about-us{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: right;
+}
+
+.titulo-about-us{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-about-us h2{
+    font-size: 70px;
+    color: yellow;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.contenedor-textos-about-us{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -70px;
+    
+}
+.imagen-about-us{
+    width: 50%;
+    height: 450px;
+    position: center;
+    flex-direction:column-reverse;
+    margin-top: -10px;
+    margin-right: 30px;
+}
+
+.contenedor-textos-about-us h3 span{
+    background: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    font-size: 25px;
+
+}
+
+.contenedor-textos-about-us h3{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    margin-top: -70px;
+
+}
+
+.contenedor-textos-about-us p{
+    padding: 0px 0px 15px 10px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 23px;
+    margin-right: 50px;
+    margin-top: -70px;
+}
+
+/*  Tercera sección Alcance del proyecto */
+
+.alcance-proyecto{
+    font-family: 'arial';
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: linear-gradient(to right,  #0f3dd1bd, #79f1fa)
+}
+
+.wave-alcance{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+.contenedor-alcance-proyecto{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: right;
+}
+
+.titulo-alcance-proyecto{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-alcance-proyecto h2{
+    font-size: 50px;
+    color: rgb(5, 11, 102);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.contenedor-textos-alcance-proyecto{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -70px;
+}
+.imagen-alcance-proyecto{
+    width: 50%;
+    height: 450px;
+    position: center;
+    flex-direction:column-reverse;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.contenedor-textos-alcance-proyecto h3 span{
+    background: #0c81c5;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    font-size: 25px;
+
+}
+
+.contenedor-textos-alcance-proyecto h3{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+
+}
+
+.contenedor-textos-alcance-proyecto p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 30px;
+    margin-right: 50px;
+   
+}
+
+/* Galeria */
+
+.Portafolio{
+    font-family: 'arial';
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background: linear-gradient(to right,  #8a079bbd, #b7d124c4)
+}
+
+.titulo-portafolio{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-portafolio h2{
+    font-size: 50px;
+    color: rgb(5, 11, 102);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.galeria-portafolio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-portafolio{
+    width: 100%px;
+    height: 300px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.imagen-portafolio > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria img{
+    width: 24%;
+    height: 50%;
+    object-fit: cover;
+    display: block; 
+    color: white;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(340, 26%, 52%, 0.555);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria p{
+    color: white;
+}
+
+.imagen-portafolio:hover .hover-galeria{
+    transform: scale(1);
+}
+
+.foto-eberth{
+    margin-top: -5px;
+}
+
+.wave-portafolio{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*  Cuarta sección Desarrollo del proyecto */
+
+.desarrollo-proyecto{
+    font-family: 'arial';
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: linear-gradient(to right,  #16d125bd, #14bbc7c4)
+}
+
+.wave-desarrollo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+.contenedor-desarrollo-proyecto{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: right;
+}
+
+.titulo-desarrollo-proyecto{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-desarrollo-proyecto h2{
+    font-size: 50px;
+    color: rgb(29, 32, 31);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.contenedor-textos-desarrollo-proyecto{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -70px;
+}
+.imagen-desarrollo-proyecto{
+    width: 50%;
+    height: 450px;
+    position: center;
+    flex-direction:column-reverse;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.contenedor-textos-desarrollo-proyecto h3 span{
+    background: #0c81c5;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    font-size: 25px;
+
+}
+
+.contenedor-textos-desarrollo-proyecto h3{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+
+}
+
+.contenedor-textos-desarrollo-proyecto p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 30px;
+    margin-right: 50px;
+   
+}
+
+/* Equipo de trabajo */
+
+.profesores-materia{
+    font-family: 'arial';
+    width: 100%;
+    height: 950px;
+    position: relative;
+    background: linear-gradient(to right,  #f5030fbd, #5219bdc4)
+}
+
+.titulo-profesores{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-profesores h2{
+    font-size: 50px;
+    color: rgb(20, 0, 199);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.cards{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+    margin-right: -30px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cards .card{
+    background: #9125aca4;
+    display: flex;
+    width: 45%;
+    height: 140px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    margin-bottom: 10px;
+}
+
+.cards .card img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 0px solid rgba(255, 255, 255, 0.61);
+    border-radius: 50%;
+    display: block;
+}
+
+.card .foto-rodrigo{
+    margin-left: -65px;
+}
+
+.contenido-texto-card{
+    font-size: 23px;
+    padding-top: 5px;
+    font-weight: 300;
+    color: white;
+    width: 60%;
+}
+
+.alumnos img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 0px solid white;
+    border-radius: 50%;
+    display: block;
+}
+.alumnos{
+    background: #a12323a2;
+    display: flex;
+    width: 45%;
+    height: 140px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    margin-left: 720px;
+    margin-top: -70px;
+    margin-bottom: -290px;
+}
+
+.contenido-texto-alumnos{
+    font-size: 23px;
+    padding-top: 5px;
+    font-weight: 300;
+    color: white;
+    width: 60%;
+}
+
+/* Contacto con la escuela */
+
+.contacto-equipo{
+    font-family: 'arial';
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: linear-gradient(to right,  #07015ebd, #5f0624c4)
+}
+
+.titulo-contacto-equipo{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-contacto-equipo h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+
+.contenedor-contacto{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.contacto-correo{
+    width: 28%;
+    text-align: center;   
+}
+
+.contacto-telefono{
+    width: 28%;
+    text-align: center;   
+}
+
+.contacto-ubicacion{
+    width: 28%;
+    text-align: center;   
+}
+
+.contacto-equipo img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    display: flex; 
+    align-items: center;
+    margin-left: 22px;
+}
+
+.contacto-equipo h3{
+    margin: 10px 0;
+    color: white;
+    font-size: 40px;
+}
+
+
+.contacto-equipo p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.titulo-final{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-final h2{
+    font-size: 50px;
+    color: rgb(226, 224, 224);
+}
